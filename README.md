@@ -8,6 +8,7 @@ The application allows users to search for a city and view its current weather c
 
 ## Features
 
+<<<<<<< HEAD
 - Search weather by city
 - Current weather conditions
 - Feels-like temperature
@@ -23,11 +24,29 @@ The application allows users to search for a city and view its current weather c
 - ESLint and Prettier
 - Automated CI with GitHub Actions
 - Production deployment with Cloudflare
+=======
+* Search weather by city
+* Current weather conditions
+* Feels-like temperature
+* Humidity
+* Wind speed
+* 7-day weather forecast
+* Weather condition icons
+* Slovak localization
+* Responsive design
+* Loading and error states
+* TypeScript type safety
+* Automated tests
+* ESLint and Prettier
+* Automated CI with GitHub Actions
+* Production deployment with Cloudflare
+>>>>>>> b39cc75d3ea47ccc8065d68bb2fb0000153b4323
 
 ## Tech Stack
 
 ### Frontend
 
+<<<<<<< HEAD
 - Vue 3
 - TypeScript
 - Ionic Vue
@@ -50,6 +69,30 @@ The application allows users to search for a city and view its current weather c
 - GitHub
 - GitHub Actions
 - Cloudflare Workers
+=======
+* Vue 3
+* TypeScript
+* Ionic Vue
+* Vite
+
+### APIs
+
+* Open-Meteo Geocoding API
+* Open-Meteo Weather API
+
+### Quality & Testing
+
+* Vitest
+* ESLint
+* Prettier
+* vue-tsc
+
+### CI/CD & Deployment
+
+* GitHub
+* GitHub Actions
+* Cloudflare Workers
+>>>>>>> b39cc75d3ea47ccc8065d68bb2fb0000153b4323
 
 ## Architecture
 
@@ -108,8 +151,13 @@ The application first converts the searched city into geographic coordinates usi
 
 ### Requirements
 
+<<<<<<< HEAD
 - Node.js 22+
 - npm 10+
+=======
+* Node.js 22+
+* npm 10+
+>>>>>>> b39cc75d3ea47ccc8065d68bb2fb0000153b4323
 
 ### Installation
 
@@ -159,6 +207,7 @@ Tests are written with Vitest.
 
 The current test suite covers the weather-code mapping utility, including:
 
+<<<<<<< HEAD
 - Clear weather
 - Mostly clear weather
 - Cloudy weather
@@ -166,6 +215,15 @@ The current test suite covers the weather-code mapping utility, including:
 - Snow
 - Thunderstorms
 - Unknown weather codes
+=======
+* Clear weather
+* Mostly clear weather
+* Cloudy weather
+* Rain
+* Snow
+* Thunderstorms
+* Unknown weather codes
+>>>>>>> b39cc75d3ea47ccc8065d68bb2fb0000153b4323
 
 Run tests with:
 
@@ -263,6 +321,7 @@ The coordinates are then used with the Open-Meteo Forecast API.
 
 The application requests:
 
+<<<<<<< HEAD
 - Current temperature
 - Apparent temperature
 - Relative humidity
@@ -271,11 +330,22 @@ The application requests:
 - Daily maximum temperature
 - Daily minimum temperature
 - Daily weather code
+=======
+* Current temperature
+* Apparent temperature
+* Relative humidity
+* Wind speed
+* Weather code
+* Daily maximum temperature
+* Daily minimum temperature
+* Daily weather code
+>>>>>>> b39cc75d3ea47ccc8065d68bb2fb0000153b4323
 
 ## Project Goals
 
 This project was built as a practical learning project to gain experience with:
 
+<<<<<<< HEAD
 - Vue 3
 - TypeScript
 - Component-based architecture
@@ -286,11 +356,24 @@ This project was built as a practical learning project to gain experience with:
 - Code quality tooling
 - CI/CD
 - Cloud deployment
+=======
+* Vue 3
+* TypeScript
+* Component-based architecture
+* REST API integration
+* Asynchronous data handling
+* Error handling
+* Automated testing
+* Code quality tooling
+* CI/CD
+* Cloud deployment
+>>>>>>> b39cc75d3ea47ccc8065d68bb2fb0000153b4323
 
 ## Future Improvements
 
 Possible future improvements include:
 
+<<<<<<< HEAD
 - Automatic geolocation
 - Search history
 - Favorite cities
@@ -302,6 +385,19 @@ Possible future improvements include:
 - Progressive Web App support
 - Cloudflare Worker API proxy
 - Caching weather responses
+=======
+* Automatic geolocation
+* Search history
+* Favorite cities
+* More detailed hourly forecast
+* Weather charts
+* Dark mode
+* Unit selection
+* Improved accessibility
+* Progressive Web App support
+* Cloudflare Worker API proxy
+* Caching weather responses
+>>>>>>> b39cc75d3ea47ccc8065d68bb2fb0000153b4323
 
 ## License
 
