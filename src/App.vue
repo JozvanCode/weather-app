@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import { IonApp } from "@ionic/vue"
+import HomePage from "./views/HomePage.vue"
 </script>
 
 <template>
-  <HelloWorld />
+  <IonApp>
+    <HomePage />
+  </IonApp>
 </template>
