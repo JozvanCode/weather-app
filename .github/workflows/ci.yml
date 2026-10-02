@@ -10,8 +10,8 @@ on:
       - main
 
 jobs:
-  build:
-    name: Build Vue app
+  quality:
+    name: Code quality
     runs-on: ubuntu-latest
 
     steps:
@@ -26,6 +26,15 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: TypeScript type-check
+        run: npm run type-check
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Check formatting
+        run: npm run format:check
 
       - name: Build application
         run: npm run build

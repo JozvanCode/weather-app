@@ -58,12 +58,10 @@ export const getForecast = async (
 
   const data = await response.json()
 
-  return data.daily.time.map(
-    (date: string, index: number): ForecastDay => ({
-      date,
-      temperatureMax: data.daily.temperature_2m_max[index],
-      temperatureMin: data.daily.temperature_2m_min[index],
-      weatherCode: data.daily.weather_code[index],
-    }),
-  )
+  return data.daily.time.map((date: string, index: number): ForecastDay => ({
+    date,
+    temperatureMax: data.daily.temperature_2m_max[index],
+    temperatureMin: data.daily.temperature_2m_min[index],
+    weatherCode: data.daily.weather_code[index],
+  }))
 }
